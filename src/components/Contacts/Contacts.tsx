@@ -4,12 +4,12 @@ import cv from "./Ilya_smiyukha_CV.pdf";
 const Contacts = () => {
   return (
     <>
-      <div className="relative z-10 flex flex-wrap mt-8 divide-x-2">
+      <div className="relative z-10 md:flex mt-8 md:divide-x-2">
         <a
           href="https://www.linkedin.com/in/ilya-smiukha/"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1 hover:underline px-4 pl-0"
+          className="flex items-center gap-1 hover:underline px-4 py-2 pl-0"
         >
           <In />
           LinkedIn
@@ -18,7 +18,7 @@ const Contacts = () => {
           href="https://twitter.com/Ilya_Smiyukha"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1 hover:underline  px-4"
+          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
         >
           <XIcon /> X
         </a>
@@ -26,21 +26,21 @@ const Contacts = () => {
           href="https://github.com/IlyaSmiyukha"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1 hover:underline  px-4"
+          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
         >
           <GitHub />
           Github
         </a>
         <a
           href="mailto:ilya.smiyuha@gmail.com"
-          className="flex items-center gap-1 hover:underline  px-4"
+          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
         >
           <Mail />
           Mail
         </a>
         <a
           href={cv}
-          className="flex items-center gap-1 hover:underline  px-4"
+          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
           download
         >
           <FileIcon />
