@@ -3,6 +3,7 @@
   "version": "07.25",
   "private": false,
   "homepage": "https://is-portfolio.github.io/",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
