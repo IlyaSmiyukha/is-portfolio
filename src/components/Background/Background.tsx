@@ -29,11 +29,13 @@ const Bubble: React.FC<BubbleProps> = ({
   zFactor,
   color,
 }) => {
-  const ref = useRef<typeof Instance>(null);
+  const ref = useRef<{
+    position: { set: (x: number, y: number, z: number) => void };
+  }>(null);
 
   useFrame((state) => {
     const t = factor + state.clock.elapsedTime * (speed / 2);
-    ref.current.position.set(
+    ref.current?.position.set(
       Math.cos(t) +
         Math.sin(t * 1) / 10 +
         xFactor +
