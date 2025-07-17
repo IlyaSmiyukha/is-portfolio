@@ -73,7 +73,9 @@ const ProjectsList = [
 const Projects = () => {
   return (
     <>
-      <h3 className="text-2xl md:text-4xl mt-24 text-white">Projects</h3>
+      <h3 className="text-2xl md:text-4xl mt-8 md:mt-24 text-white">
+        Projects
+      </h3>
       <div className="mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 relative z-10">
         {ProjectsList.map((project, index) => (
           <div

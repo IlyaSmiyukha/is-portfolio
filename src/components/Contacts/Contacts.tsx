@@ -4,7 +4,7 @@ import cv from "./Ilya_smiyukha_CV.pdf";
 const Contacts = () => {
   return (
     <>
-      <div className="relative z-10 md:flex mt-8 md:divide-x-2">
+      <div className="relative z-10 sm:flex mt-8 sm:divide-x-2">
         <a
           href="https://www.linkedin.com/in/ilya-smiukha/"
           target="_blank"
@@ -18,7 +18,7 @@ const Contacts = () => {
           href="https://twitter.com/Ilya_Smiyukha"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
+          className="flex items-center gap-1 hover:underline  sm:px-4 py-2"
         >
           <XIcon /> X
         </a>
@@ -26,21 +26,21 @@ const Contacts = () => {
           href="https://github.com/IlyaSmiyukha"
           target="_blank"
           rel="noopener noreferrer"
-          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
+          className="flex items-center gap-1 hover:underline  sm:px-4 py-2"
         >
           <GitHub />
           Github
         </a>
         <a
           href="mailto:ilya.smiyuha@gmail.com"
-          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
+          className="flex items-center gap-1 hover:underline  sm:px-4 py-2"
         >
           <Mail />
           Mail
         </a>
         <a
           href={cv}
-          className="flex items-center gap-1 hover:underline  md:px-4 py-2"
+          className="flex items-center gap-1 hover:underline  sm:px-4 py-2"
           download
         >
           <FileIcon />
