@@ -1,6 +1,6 @@
 const ProjectsList = [
   {
-    name: "Napster Companion",
+    name: "Napster",
     description:
       "Conversational AI experience that lets you engage in real-time video chat with customizable AI personas.",
     link: "https://companion.napster.ai/",
